@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Topic from './Topic'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
-import Header from './header'
+import Header from './Header'
 import Body from './body'
 import Services from './Services'
 import Contacts from './Contacts'
