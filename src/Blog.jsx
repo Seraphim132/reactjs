@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Loading from './Loading'
-import Button from './button'
+import Button from './Button'
 import axios from 'axios'
 import { FaUserLock } from 'react-icons/fa'
 
