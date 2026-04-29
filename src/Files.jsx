@@ -25,13 +25,13 @@ const Files = () => {
           {ReadMore ? 'readless' : 'readmore'}
         </button>
       </div>
-      <form>
+      
         <p>
             title: {Constname}
         </p>
         <input type="text" value={Title} onChange={(e) => setTitle(e.target.value)} /> <br />
         <button onClick={() => setConstname(Title)}> save title</button>
-      </form>
+      
     </div>
   )
 }

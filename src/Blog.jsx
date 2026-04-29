@@ -58,8 +58,10 @@ const Blog = () => {
       </div>
       <div className='users'>
         {Comment.map((Comment) => (
-          <div key={Comment.id} className='user'>
-          <img src="" alt="img" />
+        <div key={Comment.id} className='user'>
+          <div className='img'>
+            <img src={Comment.image} alt="img" />
+          </div>
           <h1>{Comment.title} </h1>
           <h2>Price: ${Comment.price}</h2>
           <p>

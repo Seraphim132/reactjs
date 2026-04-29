@@ -103,10 +103,17 @@ promise{
 .user{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
     background: gray;
     color: #EBEBEB;
     padding: 30px;
     border-radius: 30px;
     text-align: center;
+}
+.img{
+    background: black;
+    padding: 30px;
+    border-radius: 100%;
 }
