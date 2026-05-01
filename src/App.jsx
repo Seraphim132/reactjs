@@ -9,8 +9,8 @@ import Blog from './Blog'
 import Quotes from './Quotes'
 import Courses from './Courses'
 import Files from './Files'
-import Todo from './todo'
 import Shop from './Shop'
+import Todo from './Todo'
 
 
 const App = () => {
