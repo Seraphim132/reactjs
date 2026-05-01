@@ -10,7 +10,7 @@ import Quotes from './Quotes'
 import Courses from './Courses'
 import Files from './Files'
 import Shop from './Shop'
-import Todo from './Todo'
+import Todol from './Todol'
 
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
           <Route path='/quotes' element={<Quotes/>} />
           <Route path='/courses' element={<Courses/>} />
           <Route path='/form' element={<Files/>} />
-          <Route path='/todo' element={<Todo/>} />
+          <Route path='/todo' element={<Todol/>} />
           <Route path='/shop' element={<Shop/>} />
         </Routes>
       </Router>
