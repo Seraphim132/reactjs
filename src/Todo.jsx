@@ -24,10 +24,6 @@ const Todo = () => {
     setOneName(newIndex)
     const newNameList = Names.filter((newName, nld) => nld !== index)
     setNames(newNameList)
-    if(OneName !== ''){
-      setNames([...Names,OneName])
-      setOneName('')
-    }
   }
     
   return (
