@@ -9,6 +9,8 @@ import Blog from './Blog'
 import Quotes from './Quotes'
 import Courses from './Courses'
 import Files from './Files'
+import Todo from './todo'
+import Shop from './Shop'
 
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
           <Route path='/quotes' element={<Quotes/>} />
           <Route path='/courses' element={<Courses/>} />
           <Route path='/form' element={<Files/>} />
+          <Route path='/todo' element={<Todo/>} />
+          <Route path='/shop' element={<Shop/>} />
         </Routes>
       </Router>
       
