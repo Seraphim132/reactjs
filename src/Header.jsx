@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Todo from './todo'
 
 
 const Header = () => {
@@ -16,7 +15,7 @@ const Header = () => {
                 <Link className='link' to='/quotes'>Quotes</Link>
                 <Link className='link' to='/courses'>Courses</Link>
                 <Link className='link' to='/form'>Form</Link>
-                <Link className='link' to='/todo'>Todo</Link>
+                <Link className='link' to='todolist'>Todo</Link>
                 <Link className='link' to='/shop'>Shop</Link>
                 </div>
                 <button className='.button'>LOGIN</button>
